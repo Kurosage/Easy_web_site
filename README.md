@@ -13,3 +13,10 @@
 ### Blog page
 ![Image alt](./project1/for_reedme/blog.png)
 
+## Second project
+
+### Main page
+
+![Image alt](./project2/for_reedme/welcome.png)
+### Command page
+![Image alt](./project2/for_reedme/p3.png)
