@@ -1,5 +1,5 @@
 # Easy_web_site
-## First project(CSS,HTML,JavaScript)
+## Project #1 (CSS,HTML,JavaScript)
 
 ### Main page
 
@@ -13,7 +13,7 @@
 ### Blog page
 ![Image alt](./project1/for_reedme/blog.png)
 
-## Second project(CSS,HTML,JavaScript)
+## Project #2 (CSS,HTML,JavaScript)
 
 ### Main page
 
@@ -21,11 +21,15 @@
 ### Command page
 ![Image alt](./project2/for_reedme/p3.png)
 
-## Third project(CSS,HTML,JavaScript)
+## Project #3 (CSS,HTML,JavaScript)
 ![Image alt](./project3/for_reedme/1.png)
 ![Image alt](./project3/for_reedme/2.png)
 ![Image alt](./project3/for_reedme/3.png)
 ![Image alt](./project3/for_reedme/4.png)
 ![Image alt](./project3/for_reedme/5.png)
+
+## Project #4 (CSS,HTML,JavaScript)
+
+About this project you can read more in directory ./projectr4
 
 
