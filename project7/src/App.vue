@@ -19,8 +19,8 @@
 import first from "./components/First.vue"
 import second from "./components/Second.vue"
 import third from "./components/Third.vue"
-import {ref} from "vue"
-const componentsArray = ref([first,second,third])
+import {ref,shallowRef } from "vue"
+const componentsArray = shallowRef([first,second,third])
 const componentsLength = ref(componentsArray.value.length)
 const activeSlide = ref(1)
 
