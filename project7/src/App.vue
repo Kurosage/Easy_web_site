@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>На данной странице вы увидите реализацию нескольких мини проектов вместе</h1>
+    <component :is="componentsArray[activeSlide-1]"/>
     <div class="slider">
       <div class="progressbar" >
         <div v-for="i in componentsLength" :key="i" class="circlePoint">
@@ -17,8 +17,10 @@
 
 <script setup>
 import first from "./components/First.vue"
+import second from "./components/Second.vue"
+import third from "./components/Third.vue"
 import {ref} from "vue"
-const componentsArray = ref([first,"dddd","ffff"])
+const componentsArray = ref([first,second,third])
 const componentsLength = ref(componentsArray.value.length)
 const activeSlide = ref(1)
 
