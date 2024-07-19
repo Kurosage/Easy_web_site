@@ -1,12 +1,13 @@
 <template>
   <div class="container">
-    <img class="picture" ref="picture" src="../assets/picture.jpg" @load="startLoading" alt="nature">
+    <img class="picture" ref="picture" v-lazy="'../assets/picture.jpg'" @load="startLoading" alt="nature">
     <div class="loader" ref="loader"><p>{{progress}}%</p></div>
   </div>
   
 </template>
 <script setup>
 import { onMounted,ref } from 'vue';
+
 const loading = ref(true)
 const progress= ref(0)
 const loader = ref(null)
